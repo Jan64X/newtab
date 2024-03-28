@@ -27,7 +27,7 @@ document.querySelector(".search-form").addEventListener("keypress", function(e) 
       if (matchedLink) {
           window.open(matchedLink.link, "_self");
       } else {
-          const baseLink = "https://www.google.com/search?q=";
+          const baseLink = "https://duckduckgo.com/?q=";
           const link = baseLink.concat(userInput);
           console.log(link);
           window.open(link, "_self");
