@@ -156,3 +156,44 @@ li a .nf {
   }
 }
 
+.head2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  margin-top: 10px;
+  margin-right: 10px; /* Adjust margin for spacing */
+  padding: 8px 16px;
+  border: 1px solid #2c2c2c;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  flex: 1; /* Allow the search input to grow to fill remaining space */
+}
+
+.search-form:focus {
+  outline: none;
+  border-color: #272727; /* Change border color when focused */
+}
+
+.search-engine {
+  margin-top: 10px;
+  padding: 6px 12px; /* Adjust padding to make it smaller */
+  border: 1px solid #2c2c2c;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #0c0c0c; /* Background color */
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  width: 120px; /* Set width to auto */
+  color: #fbf1c7;
+  margin-right: 20px;
+}
