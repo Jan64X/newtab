@@ -1,0 +1,158 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+:root {
+    --color-bg: #000000;
+    --color-fg: #fbf1c7;
+    --color-link: #b8bb26;
+    --color-link-visited: #b8bb26;
+    --color-link-hover: #8ec07c;
+}
+
+html, body {
+  background-image: radial-gradient(#434343 0.5px, #101010 0.5px);
+  background-size: 10px 10px;
+  color: var(--color-fg);
+  font-family: "Hurmit Nerd Font", monospace;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 460px 600px 1fr;
+  grid-template-areas:
+    ". left right .";
+  column-gap: 10px;
+  justify-items: left;
+  align-items: center;
+  min-height: 100%;
+}
+
+.left {
+  grid-area: left;
+  aspect-ratio: 1/1;
+}
+
+.right {
+  grid-area: right;
+  width: 100%;
+  background-color: #1d2021;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+
+.image {
+  display: inline-block; /* Ensures the container wraps around the image */
+  padding: 5px; /* Adjust padding as needed */
+  border-radius: 25px; /* Rounded corners */
+  background: linear-gradient(45deg, #2b76b4, #a567d8, #0066ff, #942cc8, #0000ff, #4b0082, #9400d3); /* Rainbow gradient */
+}
+
+.image img {
+  max-height: 500px; /* Maximum height for the image */
+  border-radius: 20px; /* Rounded corners */
+  display: block; /* Ensures the image doesn't have extra space underneath */
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 24px;
+  font-size: 16px;
+  padding-top: 15px;
+
+}
+
+.head2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 24px;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+
+.bookmarks {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  width: 20rem;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: #1a1d1e;
+  color: #fbf1c7;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.title {
+  font-size: 16px;
+  padding-bottom: 7.5px;
+  color: #9400d3;
+
+}
+
+li {
+  font-size:14px;
+  list-style-type: none;
+  padding: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #769ff0;
+}
+
+a:visited {
+  color: #769ff0;
+}
+
+a:hover {
+  color: #165ce8;
+}
+
+.nf{
+  font-size: 18px;
+  color: #9400d3;
+}
+
+li a .nf {
+  color: #a5c3ff;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
