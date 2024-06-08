@@ -2,7 +2,7 @@
 
 :root {
     --color-bg: #000000;
-    --color-fg: #fbf1c7;
+    --color-fg: #a5c3ff;
     --color-link: #b8bb26;
     --color-link-visited: #b8bb26;
     --color-link-hover: #8ec07c;
@@ -93,7 +93,7 @@ html, body {
   border: none;
   border-radius: 15px;
   background-color: #1a1d1e;
-  color: #fbf1c7;
+  color: #a5c3ff;
   font-size: 14px;
   padding: 10px;
 }
@@ -110,7 +110,7 @@ html, body {
 .title {
   font-size: 16px;
   padding-bottom: 7.5px;
-  color: #9400d3;
+  color: #D0017C;
 
 }
 
@@ -122,11 +122,11 @@ li {
 
 a:link {
   text-decoration: none;
-  color: #769ff0;
+  color: #8E4AC8;
 }
 
 a:visited {
-  color: #769ff0;
+  color: #8E4AC8;
 }
 
 a:hover {
@@ -135,11 +135,11 @@ a:hover {
 
 .nf{
   font-size: 18px;
-  color: #9400d3;
+  color: #D0017C;
 }
 
 li a .nf {
-  color: #a5c3ff;
+  color: #8E4AC8;
 }
 
 @keyframes opacity {
@@ -194,6 +194,6 @@ li a .nf {
   background-color: #0c0c0c; /* Background color */
   transition: border-color 0.3s ease, background-color 0.3s ease;
   width: 120px; /* Set width to auto */
-  color: #fbf1c7;
+  color: #a5c3ff;
   margin-right: 20px;
 }

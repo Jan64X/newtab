@@ -24,7 +24,7 @@
         if (selectedEngine === 'google') {
           searchLink = "https://www.google.com/search?q=";
         } else if (selectedEngine === 'searx') {
-          searchLink = "https://searx.thegpm.org/?q=";
+          searchLink = "https://64bit.uno/?q=";
         } else if (selectedEngine === 'duckduckgo') {
           searchLink = "https://duckduckgo.com/?q=";
         } else if (selectedEngine === 'bing') {
